@@ -15,11 +15,11 @@ def check_password(password):
         score += 1
 
     if score <= 2:
-        return "Weak Password ?"
+        return "Weak Password ❌"
     elif score == 8:
-        return "Medium Password ??"
+        return "Medium Password ⚠️"
     else:
-        return "Strong Password ?"
+        return "Strong Password ✅"
 
 
 password = input("Enter password: ")
