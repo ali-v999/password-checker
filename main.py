@@ -16,7 +16,7 @@ def check_password(password):
 
     if score <= 2:
         return "Weak Password ?"
-    elif score == 3 or score == 4:
+    elif score == 8:
         return "Medium Password ??"
     else:
         return "Strong Password ?"
